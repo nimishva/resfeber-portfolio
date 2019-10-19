@@ -367,7 +367,7 @@ html,body{
     }
 
     .right-sideBar{
-        display: none;
+        display: none!important;
     }
 
     .headingText{
@@ -377,10 +377,17 @@ html,body{
         text-align: center;
     }
 
+    .scrollButton{
+        display: block!important;
+    }
+    /* .title{
+        border-bottom:1px solid #30231d;
+    } */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 448px) {
+@media only screen and (min-width: 600px) {
 
     .right-sideBar{
         display: none!important;
@@ -392,11 +399,13 @@ html,body{
         display: block!important;
     }
 
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .scrollButton{
+
         display: block!important;
     }
 }
