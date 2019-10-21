@@ -39,6 +39,7 @@
                 <div class="scrollButton">
                        <a href="#about" >
                         <span class="scrollText"> Scroll Down</span>
+                        <br>
                         <span class="downArrow">
                                         <i class="fas fa-chevron-down"></i>
                          </span>
@@ -291,10 +292,10 @@
     })(); //Main Function
         
          window.onscroll = function() {
-                if($(window).width() <= 980){  
-                 myFunction()
+                if($(window).width() <= 991){  
+                 myFunction();
                 }else{
-                        console.log($(window).width())
+                        // console.log($(window).width())
                  $('.scrollButton').css('display','none');
                 }
                  };
@@ -310,6 +311,7 @@
        }else{
 
                 navBar.css('display','block');
+                // console.log("TEst jdfjsdj");
                 $('.scrollButton').css('display','none');
        }
              
