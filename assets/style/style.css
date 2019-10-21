@@ -86,6 +86,10 @@ html,body{
     padding-top:35vh ;
     align-items: center;
 }
+.left-slideBar img{
+    width: 250px;
+    height: 100px;
+}
 .scrollButton{
     position: fixed;
     width: 100%;
