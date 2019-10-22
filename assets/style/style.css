@@ -92,7 +92,7 @@ html,body{
 }
 .scrollButton{
     position: fixed;
-    width: 100%;
+    width: 95%;
     height:80px;
     bottom: 0;
     color: #cacaca;
