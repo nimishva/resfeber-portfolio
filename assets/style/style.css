@@ -368,7 +368,11 @@ html,body{
     .left-slideBar {
         height: 100vh;
         width:100%;
+        background: url('/assets/imgs/left-img.jpg');
+        background-size: cover;
+
     }
+    
 
     .right-sideBar{
         display: none!important;
